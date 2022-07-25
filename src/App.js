@@ -3,6 +3,10 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
+			<div className="titleArea">
+				<div className="titleLightArea">Overview about NHCT</div>
+			</div>
+
 			<div className="lightArea">
 				<div className="title">What is NHCTDrawing?</div>
 				NHCTDrawing is a simple digital painting app allows you to:
@@ -31,11 +35,12 @@ function App() {
 							marginBottom: "auto",
 						}}
 					>
-						<p>Simple tool bar with simple and visual design</p>
-						<p>Menu for you to choose your pen type and shape</p>
+						<p>Simple tool bar with a visual design</p>
+						<p>Menu for you to choose your pen type</p>
+						<p>Shpae drawing support menu</p>
 						<p>Color picker and it allow you to save your colors</p>
-						<p>Pen thickess adjust</p>
-						<p>Eraser size adjust</p>
+						<p>Pen thickess adjust area</p>
+						<p>Eraser size adjust area</p>
 						<p>Slider to zoom in and out</p>
 					</div>
 					<div
@@ -96,15 +101,13 @@ function App() {
 					}}
 					src="MenuBar.png"
 				></img>
-				<p> Your main layer name displayed</p>
+				<p>Current layer name is displayed</p>
 				<p>Undo, redo buttons</p>
 				<p>"Clear your painting" to clear your current layer</p>
 				<p>Area to select mask</p>
 			</div>
 			<div className="lightArea">
-				<div className="title">
-					Overview about full of user interface
-				</div>
+				<div className="title">Full user interface overview</div>
 				<img
 					src="OverallUI.png"
 					style={{
@@ -131,19 +134,19 @@ function App() {
 					<li style={{ padding: "10px" }}>
 						NHCTDrawing doesn't have save function and when you quit
 						app, all your current states are destroyed.{" "}
-						<i>(in development)</i>
+						<i>(under development)</i>
 					</li>
 				</ul>
 			</div>
 			<div className="lightArea">
 				<div className="title">Last words</div>
 				<p>
-					NHCTDrawing is in development and when it finishes, i will
-					push it on github and public the link later.
+					NHCTDrawing is under development and when it's finished, i
+					will push it on github and public the link later.
 				</p>
 				<p>
 					If you have any ideas about new functions or about user
-					interface then email me: <b>minhtrietamoled@gmail.com</b>
+					interface then email me at: <b>minhtrietamoled@gmail.com</b>
 				</p>
 				<p style={{ color: "#e84393" }}>
 					Thank you for your time and interest in my application!!!

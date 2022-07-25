@@ -49,6 +49,22 @@
 	color: white;
 }
 
+.titleArea {
+	background-color: #38ada9;
+	padding: 30px;
+}
+
+.titleLightArea {
+	background-color: #98d2c3;
+	border-radius: 50px;
+	margin: auto;
+	width: 50%;
+	color: black;
+	padding: 30px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
 .title {
 	font-size: 35px;
 	font-weight: bold;
